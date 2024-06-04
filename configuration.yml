@@ -1,1 +1,17 @@
+data_source my_datasource_name:
+     type: snowflake
+     username: ${ Akshaydode }
+     password: ${ Akshay@111 }
+     account: ${et20225.central-india.azure} 
+     database: SNOWFLAKE_DEMO 
+     warehouse: COMPUTE_WH
+     role: ACCOUNTADMIN
+     session_parameters:
+       QUERY_TAG: soda-queries
+       QUOTED_IDENTIFIERS_IGNORE_CASE: false
+     schema: public
 
+soda_cloud:
+  host: cloud.us.soda.io
+  api_key_id: 2fdcea99-7777-4ec4-be7c-959744676e64
+  api_key_secret: DsaD4B8wrxPeDVktcci11DFMA2evhigV7MJYxM4sSpR_0yJ63z2AAQ

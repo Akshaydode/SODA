@@ -10,8 +10,8 @@
      - name: Checkout
        uses: actions/checkout@v3
 
-     - name: Perform Soda Scan
-       uses: sodadata/soda-github-action@main
+     - name: Soda Library Action
+       uses: sodadata/soda-github-action@v1.0.2
        env:
          SODA_CLOUD_API_KEY: ${{ 2fdcea99-7777-4ec4-be7c-959744676e64 }}
          SODA_CLOUD_API_SECRET: ${{ DsaD4B8wrxPeDVktcci11DFMA2evhigV7MJYxM4sSpR_0yJ63z2AAQ }}

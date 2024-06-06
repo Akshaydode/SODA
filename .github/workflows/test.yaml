@@ -12,8 +12,8 @@ jobs:
       - name: Perform Soda Scan
         uses: sodadata/soda-github-action@v1.0.2
         env:
-          SODA_CLOUD_API_KEY: 2fdcea99-7777-4ec4-be7c-959744676e64
-          SODA_CLOUD_API_SECRET: DsaD4B8wrxPeDVktcci11DFMA2evhigV7MJYxM4sSpR_0yJ63z2AAQ
+          SODA_CLOUD_API_KEY: 6e8fbab4-c0e6-4159-9675-a68064484e6b
+          SODA_CLOUD_API_SECRET: XxXhw9nBPYzqtJmYpMpfghn1FlaNUcA6rxvN9f9uFNO4onr6692Kiw
           SNOWFLAKE_USERNAME: Akshaydode
           SNOWFLAKE_PASSWORD: Akshay@111
         with:

@@ -1,4 +1,4 @@
-data_source DEMOSODA:
+data_source datademo:
      type: snowflake
      username: Akshaydode
      password: Akshay@111

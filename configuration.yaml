@@ -9,7 +9,7 @@ data_source my_datasource_name:
      session_parameters:
        QUERY_TAG: soda-queries
        QUOTED_IDENTIFIERS_IGNORE_CASE: false
-     schema: public
+     schema: CUST_DETAILS
 
 soda_cloud:
   host: cloud.us.soda.io

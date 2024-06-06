@@ -1,8 +1,8 @@
 data_source my_datasource_name:
      type: snowflake
-     username: ${ Akshaydode }
-     password: ${ Akshay@111 }
-     account: ${et20225.central-india.azure} 
+     username: Akshaydode
+     password: Akshay@111
+     account: et20225.central-india.azure
      database: SNOWFLAKE_DEMO 
      warehouse: COMPUTE_WH
      role: ACCOUNTADMIN

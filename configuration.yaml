@@ -1,4 +1,4 @@
-data_source my_datasource_name:
+data_source DEMOSODA:
      type: snowflake
      username: Akshaydode
      password: Akshay@111
@@ -9,9 +9,9 @@ data_source my_datasource_name:
      session_parameters:
        QUERY_TAG: soda-queries
        QUOTED_IDENTIFIERS_IGNORE_CASE: false
-     schema: public
+     schema: CUST_DETAILS
 
 soda_cloud:
   host: cloud.us.soda.io
-  api_key_id: 2fdcea99-7777-4ec4-be7c-959744676e64
-  api_key_secret: DsaD4B8wrxPeDVktcci11DFMA2evhigV7MJYxM4sSpR_0yJ63z2AAQ
+  api_key_id: 6e8fbab4-c0e6-4159-9675-a68064484e6b
+  api_key_secret: XxXhw9nBPYzqtJmYpMpfghn1FlaNUcA6rxvN9f9uFNO4onr6692Kiw

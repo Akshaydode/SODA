@@ -3,5 +3,5 @@
      - row_count > 0:
          name: CUST_DETAILS
    # Checks that column contains no NULL values
-     - missing_count(STORE_ID) = 0:
+     - missing_count(EMAIL) = 0:
          name: No NULL values

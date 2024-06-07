@@ -1,4 +1,4 @@
-   checks for dataset_name:
+   checks for datademo:
    # Checks that dataset contains rows
      - row_count > 0:
          name: CUST_DETAILS
